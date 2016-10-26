@@ -24,6 +24,8 @@
 		7CF14FE11D0186E00068E909 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF14FDA1D0186E00068E909 /* 5.jpg */; };
 		7CF14FE21D0186E00068E909 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF14FDB1D0186E00068E909 /* 0.jpg */; };
 		7CF14FEB1D027C3F0068E909 /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF14FEA1D027C3F0068E909 /* CustomCollectionView.m */; };
+		E6DF09151D87EE0B006954FA /* UnfoldCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF09131D87EE0B006954FA /* UnfoldCollectionViewCell.m */; };
+		E6DF09161D87EE0B006954FA /* UnfoldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6DF09141D87EE0B006954FA /* UnfoldCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,9 @@
 		7CF14FDB1D0186E00068E909 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		7CF14FE91D027C3F0068E909 /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
 		7CF14FEA1D027C3F0068E909 /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		E6DF09121D87EE0B006954FA /* UnfoldCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfoldCollectionViewCell.h; sourceTree = "<group>"; };
+		E6DF09131D87EE0B006954FA /* UnfoldCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfoldCollectionViewCell.m; sourceTree = "<group>"; };
+		E6DF09141D87EE0B006954FA /* UnfoldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnfoldCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 				7CF14FD11D0185FA0068E909 /* CustomCollectionViewCell.h */,
 				7CF14FD21D0185FA0068E909 /* CustomCollectionViewCell.m */,
 				7CF14FD31D0185FA0068E909 /* CustomCollectionViewCell.xib */,
+				E6DF09121D87EE0B006954FA /* UnfoldCollectionViewCell.h */,
+				E6DF09131D87EE0B006954FA /* UnfoldCollectionViewCell.m */,
+				E6DF09141D87EE0B006954FA /* UnfoldCollectionViewCell.xib */,
 				7CF14FE91D027C3F0068E909 /* CustomCollectionView.h */,
 				7CF14FEA1D027C3F0068E909 /* CustomCollectionView.m */,
 				7CF14FC11D01838D0068E909 /* Assets.xcassets */,
@@ -184,6 +192,7 @@
 				7CF14FD01D01841D0068E909 /* CustomTableViewCell.xib in Resources */,
 				7CF14FDD1D0186E00068E909 /* 1.jpg in Resources */,
 				7CF14FD51D0185FA0068E909 /* CustomCollectionViewCell.xib in Resources */,
+				E6DF09161D87EE0B006954FA /* UnfoldCollectionViewCell.xib in Resources */,
 				7CF14FE01D0186E00068E909 /* 4.jpg in Resources */,
 				7CF14FC01D01838D0068E909 /* Main.storyboard in Resources */,
 				7CF14FDF1D0186E00068E909 /* 3.jpg in Resources */,
@@ -197,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DF09151D87EE0B006954FA /* UnfoldCollectionViewCell.m in Sources */,
 				7CF14FBD1D01838D0068E909 /* ViewController.m in Sources */,
 				7CF14FBA1D01838D0068E909 /* AppDelegate.m in Sources */,
 				7CF14FCF1D01841D0068E909 /* CustomTableViewCell.m in Sources */,

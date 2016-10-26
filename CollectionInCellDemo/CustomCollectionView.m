@@ -32,6 +32,9 @@
     CGSize intrinsicContentSize = self.contentSize;
     intrinsicContentSize.width = self.frame.size.width;
     
+    NSLog(@"self.contentSize = %@",NSStringFromCGSize(self.contentSize));
+    NSLog(@"self.bounds = %@",NSStringFromCGRect(self.bounds));
+    
     return intrinsicContentSize;
 }
 

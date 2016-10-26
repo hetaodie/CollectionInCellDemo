@@ -26,7 +26,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     self.tableView.estimatedRowHeight = 44.0 ;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.prototypeCell  = [self.tableView dequeueReusableCellWithIdentifier:@"CustomTableViewCell"];
+//    self.prototypeCell  = [self.tableView dequeueReusableCellWithIdentifier:@"CustomTableViewCell"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -58,12 +58,12 @@
 //}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 100;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CustomTableViewCell *cell = (CustomTableViewCell *)[tableView  dequeueReusableCellWithIdentifier:@"CustomTableViewCell" forIndexPath:indexPath];
-    [cell itemOfShowNumber:indexPath.row+2];
+    [cell itemOfShowNumber:indexPath.row+5];
   
     return cell;
 }

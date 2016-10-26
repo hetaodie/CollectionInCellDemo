@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E90900E79556B2FA2BBEAF735B3A94911F4833B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E90900E79556B2FA2BBEAF735B3A94911F4833B9" : 9223372036854775807,
+    "62FEAC4271CD37C2274DA98161D92F75B0BE43DA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF2486F9-F714-499D-BB6D-A306C34D12A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E90900E79556B2FA2BBEAF735B3A94911F4833B9" : "HealthEdu\/",
+    "62FEAC4271CD37C2274DA98161D92F75B0BE43DA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HealthEdu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HealthEdu.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hetaodie\/CollectionInCellDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62FEAC4271CD37C2274DA98161D92F75B0BE43DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hetaodie\/HealthEdu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E90900E79556B2FA2BBEAF735B3A94911F4833B9"
+    }
+  ]
+}
